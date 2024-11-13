@@ -1,0 +1,408 @@
+
+.h1 {
+
+    background-color: rgba(31, 191, 58, 0);
+    width: 100%;
+    height: 80px;  
+    display: flex;
+   
+}
+
+.h1a {
+
+    background-color:  rgba(169, 169, 58, 0);
+    width: 8%;
+    height: 100%;  
+}
+.h1b {
+
+    background-color: rgba(92, 226, 59, 0);
+    width: 40%;
+    height: 100%;
+
+    display: flex;
+}
+
+.logo {    
+    width: 125px; 
+    height: 65px;
+    margin-right: 15px;    
+}
+
+.menuButtons {    
+    width: 125px; 
+    height: 65px;
+    background-color: transparent;
+    border-width: 0px;
+    font-weight: bold;
+    font-size: 14px;
+    ;
+}
+
+
+/* //////////////////////////////////////////////////////////// */
+
+
+
+.h2 {
+
+    background-color: rgba(239, 229, 229, 0);
+    width: 100%;
+    height: 85px; 
+    color: #7f5353;  
+    display: flex;
+    justify-content: center; 
+
+}
+
+
+/* //////////////////////////////////////////////////////////// */
+
+
+.spriteLogo{
+    width: 100px;
+    height: 90%;
+    background-color: rgba(0, 255, 255, 0);
+}
+
+/* //////////////////////////////////////////////////////////// */
+
+
+.sliderRect {
+
+    background-color: #f0f0f0;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center; 
+}
+.slideShow {
+
+    background-color: #eddfdf00;
+    width: 100%;
+    height: 95vh;
+}
+.slideImage{
+    width: 100%;
+    height: 90%;
+}
+
+/* //////////////////////////////////////////////////////////// */
+
+
+.radioRect{
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 255, 255, 0);
+    gap: 5px;
+}
+
+.radio {
+    width: 50;
+    height: 50;
+    scale: 1.5;
+    background-color: black;
+    color: red;
+}
+
+/* //////////////////////////////////////////////////////////// */
+
+.descriptionRect{
+    width: 100%;
+    height: 150vh;
+    display: flex;
+}
+
+.spacingA{
+    width: 12%;
+    height: 100%;
+    background-color: #f0f0f0;
+}
+
+.spacingB{
+    width: 8%;
+    height: 100%;
+    background-color: #f0f0f0; 
+}
+
+.spacingC{
+    width: 18%;
+    height: 100%;
+    background-color: #f0f0f0;
+    
+}
+.detailsRect{
+    width: 30%;
+    height: 100%;
+    background-color: #f0f0f0;
+}
+
+.spriteImageRect {
+    width: 36%;
+    height: 100%;
+    background-color: #f0f0f0
+}
+
+.mediaRect{
+    width: 100%;
+    height: 95vh;
+    background-color: #f0f0f0;
+}
+
+.mediaPlayer{
+    width: 100%;
+    height: 85vh;
+}
+.mediaPlayerImage{
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.byNowRect{
+    width: 100%;
+    height: 60px;
+    background-color: #f0f0f0;
+    font-size: 30px;
+    align-items: center;
+    text-align: center;
+}
+
+.slideshowRect{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    background-color: #f0f0f0;
+}
+
+.slidesRect{
+    width: 100%;
+    height: 100%;
+    margin-left: 13%;
+    display: flex;
+    margin-right: 10px;
+    gap: 25px;
+}
+.amazonWidget{
+    width: 27%;
+    height: 100%;
+    background-color: white;
+    border-radius: 30px;
+}
+.Products {
+
+    background-color: #f0f0f0;
+    width: 100%;
+    height: 10vw;
+    color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
+    font-size: 40px;   
+    /* border-style: dotted;   */
+
+}
+
+.ProductSpace {
+
+    background-color: #f0f0f0;
+    width: 98%;
+    height: 5vw;
+    font-size: 40px;
+}
+
+/* //////////////////////////////////////////////////////////// */
+
+
+.productDetails{
+    background-color: #94393900;
+    width: 98%;
+    height: 100vw;
+    display: flex;
+    /* border-style: dotted; */
+}
+
+.spriteImageArea{
+    background-color: #f0f0f0;
+    width: 50%;
+    height: 65vw;    
+}
+
+.spriteImageBox{
+    width: 50%;
+    height: 50vw;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: right; 
+}
+.imageBox{
+    background-color: #f0f0f0;
+    width: 35vw;
+    height: 35vw;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.spriteLarge{
+    width: 30%;
+    height: 80%;
+}
+
+/* //////////////////////////////////////////////////////////// */
+
+
+.detailsRow{
+    background-color: #fb434300;
+    width: 45%;
+    height: 65vw; 
+     display: flex;
+}
+.spacing{
+    background-color: #ff444400;
+    width: 10vw;
+    height: 100vw;     
+}
+
+.contentDetailRect{
+    width: 35%;
+    height: 65vw; 
+    background-color: rgb(85, 14, 14);
+}
+
+.trademark {
+    font-size: 45px; 
+    background-color: #f0f0f0;
+}
+
+.normalFonts{
+    font-size: 18px;
+    width: 98%;
+    height: 22%;
+    background-color: #f0f0f0;
+}
+
+.dropMenuRect{
+    width: 100%;
+    height: 50px;
+}
+
+.followSpriteRect{
+    width: 100%;
+    height: 130px;
+    background-color: #f0f0f0;
+}
+.followRect{
+    width: 73%;
+    height: 130px;
+    background-color: black;
+    margin-left: 13%;
+    margin-right: 11%;
+    border-radius: 10px;
+    gap: 10px;
+    display: flex;
+    
+}
+
+.shareButtons{    
+    width: 50px; height: 50px; cursor: pointer; border-radius: 50px; background-color: transparent; border-width: 3px; border-color: white;
+    color: red;
+}
+
+.widget{
+    width: 100%; height: 100%;
+}
+
+
+.contentRect{
+    width: 100%;
+    height: 93vh;
+    background-color: white;
+}
+
+.InformationRect{
+    width: 100%;
+    height: 85vh;  
+    border-style: dotted;
+    background-color: rgb(255, 255, 255);
+    
+}
+
+.dropDownRect{
+    width: 98%;
+    height: 45px;
+    background-color: #f0f0f0;
+    font-size: 22px;
+    /* border-style: dotted; */
+    
+}
+
+
+.radioButtonsRect{
+    width: 100%;
+    height: 140px;
+    background-color: #f0f0f0;
+   
+}
+
+.At{
+    width: 98%;
+    height: 100px;  
+    border-style: dotted;
+    border-color: brown;
+    background-color: rgb(70, 200, 27);
+
+}
+
+.bottomPartOne {
+    width: 100%; height: 20%; 
+    display: flex;
+}
+.bottomCocacolaImage{
+    width: 30%; height: 50%;
+}
+
+.locationRect{
+    width: 70%; height: 100%; border-style: dotted; 
+    display: flex; justify-content:flex-end; 
+}
+.locationWidget{
+    width: 20%; height: 40%; color: white; border-width: 2px; border-color: white; border-radius: 15px;
+    border-style: groove; text-align: center; align-items: center; font-size: 18px; padding-left: 10px;
+    display: flex;
+}
+
+.bottomPartTwo{
+    width: 100%; height: 60%;
+    display: flex;
+}
+.p1 {
+    width: 20%; height: 100%; color: silver;
+}
+
+.p2 {
+    width: 20%; height: 100%; color: silver;
+}
+
+.p3 {
+    width: 20%; height: 100%;  color: silver;
+}
+.p4 {
+    width: 40%; height: 100%;  color: silver;
+}
+.bottomLinks {
+    color: white; cursor: pointer;
+}
+
+.trademarkRect {
+    width: 100; height: 25%; color: white;
+    display: flex; justify-content:flex-end; align-items: center;
+}
+ 
+ 
+    
